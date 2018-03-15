@@ -36,7 +36,7 @@ apis:
   tags: Context
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/context/master/_listings/facebook/application-context-id-put.md
+    url: https://raw.githubusercontent.com/streamdata-gallery/context/master/_listings/facebook/application-context-id-delete.md
 x-common:
 - type: x-android-sdk
   url: https://developers.facebook.com/docs/android/share
