@@ -22,9 +22,9 @@ tags:
 - Issues
 - Indie EdTech Data Jam
 - Facebook Stack
-created: "2018-03-15"
-modified: "2018-03-15"
-url: https://raw.githubusercontent.com/streamdata-gallery/context/master/_listings/facebook/apis.yaml
+created: "2018-03-23"
+modified: "2018-03-23"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/context/master/_listings/facebook/apis.yaml
 specificationVersion: "0.14"
 apis:
 - name: Facebook
@@ -36,7 +36,7 @@ apis:
   tags: Context
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/context/master/_listings/facebook/user-context-id-delete.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/context/master/_listings/facebook/application-context-id-get.md
 x-common:
 - type: x-android-sdk
   url: https://developers.facebook.com/docs/android/share
