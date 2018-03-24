@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=GetContextKeysForCustomPolicy&k=1:
+  /?Action=GetContextKeysForCustomPolicy:
     get:
       summary: ' Get Context Keys For Custom Policy '
       description: Gets a list of all of the context keys referenced in the input
