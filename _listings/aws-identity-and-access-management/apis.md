@@ -16,9 +16,9 @@ tags:
 - Identity
 - Authentication
 - Amazon Web Services
-created: "2018-03-15"
-modified: "2018-03-15"
-url: https://raw.githubusercontent.com/streamdata-gallery/context/master/_listings/aws-identity-and-access-management/apis.yaml
+created: "2018-03-23"
+modified: "2018-03-23"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/context/master/_listings/aws-identity-and-access-management/apis.yaml
 specificationVersion: "0.14"
 apis:
 - name: AWS Identity and Access Management API
@@ -30,7 +30,7 @@ apis:
   tags: Context
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/context/master/_listings/aws-identity-and-access-management/action-getcontextkeysforprincipalpolicy-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/context/master/_listings/aws-identity-and-access-management/action-getcontextkeysforcustompolicy-get.md
 x-common:
 - type: x-change-log
   url: http://developer.amazonwebservices.com/connect/kbcategory.jspa?categoryID=323
