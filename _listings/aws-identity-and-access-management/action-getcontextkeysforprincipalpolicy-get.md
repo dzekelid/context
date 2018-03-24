@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=GetContextKeysForPrincipalPolicy&k=1:
+  /?Action=GetContextKeysForPrincipalPolicy:
     get:
       summary: ' Get Context Keys For Principal Policy '
       description: |-
