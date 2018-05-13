@@ -1,8 +1,12 @@
 ---
 swagger: "2.0"
 info:
-  title: Stride
-  description: This service provides public API for the Stride.
+  title: Stride Get conversation history contextually
+  description: |-
+    Authentication required, with scope participate:conversation
+
+    This method returns messages after and/or before a given messageID including the message itself.
+    Default value for 'after' and 'before' query parameters is 0.
   version: 1.0.0
 host: api.atlassian.com
 basePath: /
