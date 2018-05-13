@@ -31,15 +31,17 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/context/master/_listings/aws-identity-and-access-management/action-getcontextkeysforprincipalpolicy-get.md
-- name: AWS Identity and Access Management API Get Context Keys For Custom Policy
-  description: Gets a list of all of the context keys referenced in the input policies.
+- name: AWS Identity and Access Management API Get Context Keys For Principal Policy
+  description: |-
+    Gets a list of all of the context keys referenced in all of the IAM policies attached
+          to the specified IAM entity.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Security-Identity_AWSIAM.png
   humanURL: https://aws.amazon.com/iam/
   baseURL: http:://{host}//
   tags: Context
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/context/master/_listings/aws-identity-and-access-management/action-getcontextkeysforcustompolicy-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/context/master/_listings/aws-identity-and-access-management/action-getcontextkeysforprincipalpolicy-get.md
 x-common:
 - type: x-change-log
   url: http://developer.amazonwebservices.com/connect/kbcategory.jspa?categoryID=323
