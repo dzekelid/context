@@ -1,8 +1,11 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Identity and Access Management API
+  title: AWS Identity and Access Management API Get Context Keys For Principal Policy
   version: 1.0.0
+  description: |-
+    Gets a list of all of the context keys referenced in all of the IAM policies attached
+          to the specified IAM entity.
 schemes:
 - http
 produces:
