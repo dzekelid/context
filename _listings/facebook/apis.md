@@ -37,7 +37,66 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/context/master/_listings/facebook/user-context-id-delete.md
+- name: Facebook Get Application Context
+  description: Application Context
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/facebook_2015_logo_detail.png
+  humanURL: https://facebook.com
+  baseURL: https://graph.facebook.com//v3.0
+  tags: Context
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/context/master/_listings/facebook/#123;application-context-id-#125;-get.md
 x-common:
+- type: x-android-sdk
+  url: https://developers.facebook.com/docs/android/share
+- type: x-apigee-console
+  url: https://api.apigee.com/v1/consoles/facebook/apidescription?format=internal&ver=1386216190000
+- type: x-application-gallery
+  url: https://developers.facebook.com/docs/showcase/
+- type: x-base
+  url: https://graph.facebook.com
+- type: x-best-practices
+  url: https://developers.facebook.com/docs/sharing/best-practices
+- type: x-blog
+  url: http://blog.facebook.com
+- type: x-blog-rss
+  url: https://www.facebook.com/business/news/rss/
+- type: x-crunchbase
+  url: http://www.crunchbase.com/company/facebook
+- type: x-developer
+  url: https://developers.facebook.com/
+- type: x-forum
+  url: https://www.facebook.com/groups/fbdevelopers
+- type: x-github
+  url: https://github.com/facebook
+- type: x-ios-sdk
+  url: https://developers.facebook.com/docs/ios/share
+- type: x-issues
+  url: https://developers.facebook.com/status/issues/
+- type: x-javascript-library
+  url: https://developers.facebook.com/docs/reference/javascript/
+- type: x-partners
+  url: https://facebookmarketingpartners.com/
+- type: x-php-sdk
+  url: https://developers.facebook.com/docs/reference/php/
+- type: x-plugins
+  url: https://developers.facebook.com/docs/plugins/
+- type: x-privacy
+  url: https://www.facebook.com/settings?tab=privacy
+- type: x-road-map
+  url: https://developers.facebook.com/docs/apps/migrations
+- type: x-status
+  url: https://developers.facebook.com/status/
+- type: x-terms-of-service
+  url: https://www.facebook.com/terms
+- type: x-terms-of-service
+  url: https://developers.facebook.com/policy
+- type: x-transparency-report
+  url: https://www.facebook.com/about/government_requests
+- type: x-twitter
+  url: https://twitter.com/facebook
+- type: x-website
+  url: https://facebook.com
 - type: x-android-sdk
   url: https://developers.facebook.com/docs/android/share
 - type: x-apigee-console
