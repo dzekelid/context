@@ -37,15 +37,15 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/context/master/_listings/facebook/user-context-id-delete.md
-- name: Facebook Get Open Graph Context
-  description: Open Graph Context
+- name: Facebook Get User Context
+  description: User Context
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/facebook_2015_logo_detail.png
   humanURL: https://facebook.com
   baseURL: https://graph.facebook.com//v3.0
   tags: Context
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/context/master/_listings/facebook/#123;open-graph-context-id-#125;-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/context/master/_listings/facebook/#123;user-context-id-#125;-get.md
 x-common:
 - type: x-android-sdk
   url: https://developers.facebook.com/docs/android/share
