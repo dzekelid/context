@@ -9,11 +9,26 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28142-stri
 x-kinRank: "8"
 x-alexaRank: "40723"
 tags: Context
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/context/master/_listings/stride/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: Stride - Get conversation history contextually
+  x-api-slug: sitecloudidconversationconversationidmessagemessageidcontext-get
+  description: |-
+    Authentication required, with scope participate:conversation
+
+    This method returns messages after and/or before a given messageID including the message itself.
+    Default value for 'after' and 'before' query parameters is 0.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28142-stride.jpg
+  humanURL: https://www.stride.com/
+  baseURL: https://api.atlassian.com//
+  tags: Technology, Mobile, SaaS, Chats, Messages, Relative Data, Service API, Relative
+    StreamRank, Streams, Networks
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/context/master/_listings/stride/sitecloudidconversationconversationidmessagemessageidcontext-get-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://strava.api.gallery.streamdata.io
